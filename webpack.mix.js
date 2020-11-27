@@ -13,5 +13,6 @@ const mix = require('laravel-mix');
 
 mix.js('resources/js/app.js', 'public/js')
     .postCss('resources/css/app.css', 'public/css', [
-        //
-    ]);
+    ])
+    .js('node_modules/material-design-lite/material.min.js', 'public/js')
+    .postCss('node_modules/material-design-lite/material.min.css', 'public/css');

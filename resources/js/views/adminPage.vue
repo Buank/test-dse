@@ -2,11 +2,7 @@
   <div class="mdl-grid">
     <div class="mdl-cell mdl-cell--6-col">
       <div class="header">
-        Вы кто?
-      </div>
-      <div>
-        <a href="/admin">Администратор</a>
-        <a href="/user">Пользователь</a>
+        Привет Админ
       </div>
     </div>
   </div>

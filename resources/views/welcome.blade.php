@@ -7,6 +7,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;600&display=swap" rel="stylesheet">
     <script src="https://www.google.com/recaptcha/api.js?onload=vueRecaptchaApiLoaded&render=explicit" async defer>
     </script>
+
+    <link rel="stylesheet" href="css/material.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
     <link rel="stylesheet" href="{{ mix('css/app.css') }}" />
 
     <title>{{env('APP_NAME')}}</title>
@@ -14,6 +18,7 @@
 <body>
     <div id="app">
         <app></app>
+        <router-view></router-view>
     </div>
 
     <script src="{{ mix('js/app.js') }}"></script>
