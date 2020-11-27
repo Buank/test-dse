@@ -1,5 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router';
+import Vuetify from 'vuetify';
+import 'vuetify/dist/vuetify.min.css';
 
 //Main pages
 import App from './views/app.vue'
@@ -20,8 +22,11 @@ const router = new Router({
     ]
 });
 
+Vue.use(Vuetify);
+const vuetify = new Vuetify();
 
 const app = new Vue({
     router,
+    vuetify,
     components: { App }
 }).$mount('#app');

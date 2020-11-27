@@ -3,6 +3,9 @@
     <div class="mdl-cell mdl-cell--6-col">
       <div class="header">
         Привет Админ
+        <form>
+            
+        </form>
       </div>
     </div>
   </div>
